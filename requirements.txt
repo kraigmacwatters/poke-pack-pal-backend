@@ -1,0 +1,36 @@
+# requirements.txt
+# Poké Pack Pal Backend Dependencies
+
+# FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+PyJWT==2.8.0
+
+# Payments
+stripe==7.11.0
+
+# OCR (for camera feature)
+google-cloud-vision==3.6.0
+pytesseract==0.3.10
+Pillow==10.2.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic[email]==2.5.3
+email-validator==2.1.0
+
+# Monitoring
+sentry-sdk[fastapi]==1.39.2
+
+# Testing
+pytest==7.4.4
+httpx==0.26.0
